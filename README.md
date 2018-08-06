@@ -77,15 +77,7 @@ public class Trainproject {
             
          System.out.println(""); 
         }
-     System.out.println("\n\n1.)The most popular train (day and time)\n" +
-"2.) Least popular train (day and time)\n" +
-"3.) Whether 6.04 train is more popular than the 9.04 train\n" +
-"4.) Whether 6.04 train on Monday is more popular than the 6.04 train on Tuesday\n" +
-"5.) Which two trains is more popular where day and time is specified by the user\n" +
-"6.) Display a list of all trains (day, time) where passenger numbers were below 50\n" +
-"7.) Average number of passengers travelling on the 12.04 train over the three days (Monday, Tuesday, Wednesday)\n" +
-"8.) Average number of passengers travelling where day and time is specified by the user\n"+
-"9.)Exit");
+     System.out.println("\n\n1.)The most popular train (day and time)\n" +"2.) Least popular train (day and time)\n" +"3.) Whether 6.04 train is more popular than the 9.04 train\n" +"4.) Whether 6.04 train on Monday is more popular than the 6.04 train on Tuesday\n" +"5.) Which two trains is more popular where day and time is specified by the user\n" +"6.) Display a list of all trains (day, time) where passenger numbers were below 50\n" +"7.) Average number of passengers travelling on the 12.04 train over the three days (Monday, Tuesday, Wednesday)\n" +"8.) Average number of passengers travelling where day and time is specified by the user\n"+"9.)Exit");
          choice=t.nextInt();
         
          
@@ -211,8 +203,8 @@ public class Trainproject {
                    /*int ty[]={22,119,64,177,21 };
                    int ty1[]={22,111,87,193,22};
                    int ty2[]={11,107,93,162,42};
-*/                   
-double oi[]={6.04,9.04,12.04,15.04,19.04,6.04,9.04,12.04,15.04,19.04,6.04,9.04,12.04,15.04,19.04};
+                    */                   
+               double oi[]={6.04,9.04,12.04,15.04,19.04,6.04,9.04,12.04,15.04,19.04,6.04,9.04,12.04,15.04,19.04};
                    //double oi2[]={6.04,9.04,12.04,15.04,19.04};
                    //double oi3[]={6.04,9.04,12.04,15.04,19.04};
                    String lp[]=new String[3];
